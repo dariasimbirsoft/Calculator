@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5920D3B81822F76900E920E7 /* Equation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5920D3B71822F76900E920E7 /* Equation.m */; };
+		5920D3BB1822FB9300E920E7 /* ZVariableToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5920D3BA1822FB9300E920E7 /* ZVariableToken.m */; };
+		5920D3BE1823007500E920E7 /* EquationTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = 5920D3BD1823007500E920E7 /* EquationTokens.m */; };
+		593256EE18224B6000F278E9 /* DDDecimalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 593256ED18224B6000F278E9 /* DDDecimalFunctions.m */; };
+		593256F318224C4C00F278E9 /* TokenBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 593256F218224C4C00F278E9 /* TokenBase.m */; };
+		593256F6182250DA00F278E9 /* ConstantToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 593256F5182250DA00F278E9 /* ConstantToken.m */; };
+		593257281822644C00F278E9 /* LOGToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 593257271822644C00F278E9 /* LOGToken.m */; };
+		5932572B18226E8800F278E9 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932572A18226E8700F278E9 /* Expression.m */; };
+		5932572E182284AA00F278E9 /* AdditionToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932572D182284AA00F278E9 /* AdditionToken.m */; };
+		593257311822863600F278E9 /* SubtractionToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 593257301822863500F278E9 /* SubtractionToken.m */; };
+		59325734182286A700F278E9 /* MultiplicationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 59325733182286A700F278E9 /* MultiplicationToken.m */; };
+		59325737182286FF00F278E9 /* DivisionToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 59325736182286FE00F278E9 /* DivisionToken.m */; };
+		5950DBB817E3CA32007404E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5950DBB617E3CA32007404E3 /* Localizable.strings */; };
+		597AD07217E33B150078AA22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597AD07117E33B150078AA22 /* UIKit.framework */; };
+		597AD07417E33B150078AA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597AD07317E33B150078AA22 /* Foundation.framework */; };
+		597AD07617E33B150078AA22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597AD07517E33B150078AA22 /* CoreGraphics.framework */; };
+		597AD07C17E33B150078AA22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 597AD07A17E33B150078AA22 /* InfoPlist.strings */; };
+		597AD07E17E33B150078AA22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 597AD07D17E33B150078AA22 /* main.m */; };
+		597AD08217E33B150078AA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 597AD08117E33B150078AA22 /* AppDelegate.m */; };
+		597AD08B17E33B150078AA22 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597AD08917E33B150078AA22 /* MainStoryboard.storyboard */; };
+		597AD0A117E344570078AA22 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597AD0A017E344560078AA22 /* QuartzCore.framework */; };
+		597AD0FE17E34D670078AA22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 597AD0F517E34D670078AA22 /* Icon.png */; };
+		597AD0FF17E34D670078AA22 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 597AD0F617E34D670078AA22 /* Icon@2x.png */; };
+		597AD10017E34D670078AA22 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 597AD0F717E34D670078AA22 /* Default-568h@2x.png */; };
+		597AD10517E34D670078AA22 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 597AD0FC17E34D670078AA22 /* Default.png */; };
+		597AD10617E34D670078AA22 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 597AD0FD17E34D670078AA22 /* Default@2x.png */; };
+		59A92ED018211757007EC49A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A92ECF18211757007EC49A /* MainViewController.m */; };
+		59A92F0418212E2D007EC49A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A92F0318212E2D007EC49A /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5920D3B61822F76900E920E7 /* Equation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equation.h; sourceTree = "<group>"; };
+		5920D3B71822F76900E920E7 /* Equation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equation.m; sourceTree = "<group>"; };
+		5920D3B91822FB9300E920E7 /* ZVariableToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVariableToken.h; sourceTree = "<group>"; };
+		5920D3BA1822FB9300E920E7 /* ZVariableToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVariableToken.m; sourceTree = "<group>"; };
+		5920D3BC1823007500E920E7 /* EquationTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationTokens.h; sourceTree = "<group>"; };
+		5920D3BD1823007500E920E7 /* EquationTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationTokens.m; sourceTree = "<group>"; };
+		593256EC18224B6000F278E9 /* DDDecimalFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDecimalFunctions.h; sourceTree = "<group>"; };
+		593256ED18224B6000F278E9 /* DDDecimalFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDecimalFunctions.m; sourceTree = "<group>"; };
+		593256F018224B7200F278E9 /* ExpressionProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionProcessor.h; sourceTree = "<group>"; };
+		593256F118224C4C00F278E9 /* TokenBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenBase.h; sourceTree = "<group>"; };
+		593256F218224C4C00F278E9 /* TokenBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenBase.m; sourceTree = "<group>"; };
+		593256F4182250DA00F278E9 /* ConstantToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantToken.h; sourceTree = "<group>"; };
+		593256F5182250DA00F278E9 /* ConstantToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantToken.m; sourceTree = "<group>"; };
+		593257261822644C00F278E9 /* LOGToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOGToken.h; sourceTree = "<group>"; };
+		593257271822644C00F278E9 /* LOGToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOGToken.m; sourceTree = "<group>"; };
+		5932572918226E8700F278E9 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		5932572A18226E8700F278E9 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		5932572C182284A900F278E9 /* AdditionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionToken.h; sourceTree = "<group>"; };
+		5932572D182284AA00F278E9 /* AdditionToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionToken.m; sourceTree = "<group>"; };
+		5932572F1822863500F278E9 /* SubtractionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtractionToken.h; sourceTree = "<group>"; };
+		593257301822863500F278E9 /* SubtractionToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtractionToken.m; sourceTree = "<group>"; };
+		59325732182286A600F278E9 /* MultiplicationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplicationToken.h; sourceTree = "<group>"; };
+		59325733182286A700F278E9 /* MultiplicationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplicationToken.m; sourceTree = "<group>"; };
+		59325735182286FE00F278E9 /* DivisionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionToken.h; sourceTree = "<group>"; };
+		59325736182286FE00F278E9 /* DivisionToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionToken.m; sourceTree = "<group>"; };
+		5950DBB717E3CA32007404E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		597AD06E17E33B150078AA22 /* SimpleCalcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		597AD07117E33B150078AA22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		597AD07317E33B150078AA22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		597AD07517E33B150078AA22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		597AD07917E33B150078AA22 /* SimpleCalcApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCalcApp-Info.plist"; sourceTree = "<group>"; };
+		597AD07B17E33B150078AA22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		597AD07D17E33B150078AA22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		597AD07F17E33B150078AA22 /* SimpleCalcApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCalcApp-Prefix.pch"; sourceTree = "<group>"; };
+		597AD08017E33B150078AA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		597AD08117E33B150078AA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		597AD08A17E33B150078AA22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		597AD0A017E344560078AA22 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		597AD0F517E34D670078AA22 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		597AD0F617E34D670078AA22 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		597AD0F717E34D670078AA22 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		597AD0FC17E34D670078AA22 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		597AD0FD17E34D670078AA22 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		59A92ECE18211757007EC49A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		59A92ECF18211757007EC49A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		59A92F0318212E2D007EC49A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		597AD06B17E33B150078AA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A92F0418212E2D007EC49A /* AudioToolbox.framework in Frameworks */,
+				597AD0A117E344570078AA22 /* QuartzCore.framework in Frameworks */,
+				597AD07217E33B150078AA22 /* UIKit.framework in Frameworks */,
+				597AD07417E33B150078AA22 /* Foundation.framework in Frameworks */,
+				597AD07617E33B150078AA22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593256EB18224B6000F278E9 /* Decimal */ = {
+			isa = PBXGroup;
+			children = (
+				593256EC18224B6000F278E9 /* DDDecimalFunctions.h */,
+				593256ED18224B6000F278E9 /* DDDecimalFunctions.m */,
+			);
+			path = Decimal;
+			sourceTree = "<group>";
+		};
+		593256EF18224B7200F278E9 /* Expressions */ = {
+			isa = PBXGroup;
+			children = (
+				593256F018224B7200F278E9 /* ExpressionProcessor.h */,
+				5932572918226E8700F278E9 /* Expression.h */,
+				5932572A18226E8700F278E9 /* Expression.m */,
+				5920D3B61822F76900E920E7 /* Equation.h */,
+				5920D3B71822F76900E920E7 /* Equation.m */,
+				593256F118224C4C00F278E9 /* TokenBase.h */,
+				593256F218224C4C00F278E9 /* TokenBase.m */,
+				593256F4182250DA00F278E9 /* ConstantToken.h */,
+				593256F5182250DA00F278E9 /* ConstantToken.m */,
+				593257261822644C00F278E9 /* LOGToken.h */,
+				593257271822644C00F278E9 /* LOGToken.m */,
+				5932572C182284A900F278E9 /* AdditionToken.h */,
+				5932572D182284AA00F278E9 /* AdditionToken.m */,
+				5932572F1822863500F278E9 /* SubtractionToken.h */,
+				593257301822863500F278E9 /* SubtractionToken.m */,
+				59325732182286A600F278E9 /* MultiplicationToken.h */,
+				59325733182286A700F278E9 /* MultiplicationToken.m */,
+				59325735182286FE00F278E9 /* DivisionToken.h */,
+				59325736182286FE00F278E9 /* DivisionToken.m */,
+				5920D3B91822FB9300E920E7 /* ZVariableToken.h */,
+				5920D3BA1822FB9300E920E7 /* ZVariableToken.m */,
+				5920D3BC1823007500E920E7 /* EquationTokens.h */,
+				5920D3BD1823007500E920E7 /* EquationTokens.m */,
+			);
+			path = Expressions;
+			sourceTree = "<group>";
+		};
+		597AD06517E33B150078AA22 = {
+			isa = PBXGroup;
+			children = (
+				597AD07717E33B150078AA22 /* SimpleCalcApp */,
+				597AD07017E33B150078AA22 /* Frameworks */,
+				597AD06F17E33B150078AA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		597AD06F17E33B150078AA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				597AD06E17E33B150078AA22 /* SimpleCalcApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		597AD07017E33B150078AA22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A92F0318212E2D007EC49A /* AudioToolbox.framework */,
+				597AD0A017E344560078AA22 /* QuartzCore.framework */,
+				597AD07117E33B150078AA22 /* UIKit.framework */,
+				597AD07317E33B150078AA22 /* Foundation.framework */,
+				597AD07517E33B150078AA22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		597AD07717E33B150078AA22 /* SimpleCalcApp */ = {
+			isa = PBXGroup;
+			children = (
+				597AD0C117E34BDE0078AA22 /* Sources */,
+				597AD0DB17E34D310078AA22 /* Resources */,
+				597AD08017E33B150078AA22 /* AppDelegate.h */,
+				597AD08117E33B150078AA22 /* AppDelegate.m */,
+				597AD08917E33B150078AA22 /* MainStoryboard.storyboard */,
+				5950DBB617E3CA32007404E3 /* Localizable.strings */,
+				597AD07817E33B150078AA22 /* Supporting Files */,
+			);
+			path = SimpleCalcApp;
+			sourceTree = "<group>";
+		};
+		597AD07817E33B150078AA22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				597AD07917E33B150078AA22 /* SimpleCalcApp-Info.plist */,
+				597AD07A17E33B150078AA22 /* InfoPlist.strings */,
+				597AD07D17E33B150078AA22 /* main.m */,
+				597AD07F17E33B150078AA22 /* SimpleCalcApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		597AD0C117E34BDE0078AA22 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				593256EB18224B6000F278E9 /* Decimal */,
+				593256EF18224B7200F278E9 /* Expressions */,
+				59A92ECE18211757007EC49A /* MainViewController.h */,
+				59A92ECF18211757007EC49A /* MainViewController.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		597AD0DB17E34D310078AA22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				597AD0F517E34D670078AA22 /* Icon.png */,
+				597AD0F617E34D670078AA22 /* Icon@2x.png */,
+				597AD0F717E34D670078AA22 /* Default-568h@2x.png */,
+				597AD0FC17E34D670078AA22 /* Default.png */,
+				597AD0FD17E34D670078AA22 /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		597AD06D17E33B150078AA22 /* SimpleCalcApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597AD09417E33B150078AA22 /* Build configuration list for PBXNativeTarget "SimpleCalcApp" */;
+			buildPhases = (
+				597AD06A17E33B150078AA22 /* Sources */,
+				597AD06B17E33B150078AA22 /* Frameworks */,
+				597AD06C17E33B150078AA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCalcApp;
+			productName = SimpleCalcApp;
+			productReference = 597AD06E17E33B150078AA22 /* SimpleCalcApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		597AD06617E33B150078AA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Simbirsoft Ltd.";
+			};
+			buildConfigurationList = 597AD06917E33B150078AA22 /* Build configuration list for PBXProject "SimpleCalcApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = 597AD06517E33B150078AA22;
+			productRefGroup = 597AD06F17E33B150078AA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				597AD06D17E33B150078AA22 /* SimpleCalcApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		597AD06C17E33B150078AA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597AD07C17E33B150078AA22 /* InfoPlist.strings in Resources */,
+				597AD08B17E33B150078AA22 /* MainStoryboard.storyboard in Resources */,
+				597AD0FE17E34D670078AA22 /* Icon.png in Resources */,
+				597AD0FF17E34D670078AA22 /* Icon@2x.png in Resources */,
+				597AD10017E34D670078AA22 /* Default-568h@2x.png in Resources */,
+				597AD10517E34D670078AA22 /* Default.png in Resources */,
+				597AD10617E34D670078AA22 /* Default@2x.png in Resources */,
+				5950DBB817E3CA32007404E3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		597AD06A17E33B150078AA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597AD07E17E33B150078AA22 /* main.m in Sources */,
+				597AD08217E33B150078AA22 /* AppDelegate.m in Sources */,
+				59A92ED018211757007EC49A /* MainViewController.m in Sources */,
+				593256EE18224B6000F278E9 /* DDDecimalFunctions.m in Sources */,
+				593256F318224C4C00F278E9 /* TokenBase.m in Sources */,
+				593256F6182250DA00F278E9 /* ConstantToken.m in Sources */,
+				593257281822644C00F278E9 /* LOGToken.m in Sources */,
+				5932572B18226E8800F278E9 /* Expression.m in Sources */,
+				5932572E182284AA00F278E9 /* AdditionToken.m in Sources */,
+				593257311822863600F278E9 /* SubtractionToken.m in Sources */,
+				59325734182286A700F278E9 /* MultiplicationToken.m in Sources */,
+				59325737182286FF00F278E9 /* DivisionToken.m in Sources */,
+				5920D3B81822F76900E920E7 /* Equation.m in Sources */,
+				5920D3BB1822FB9300E920E7 /* ZVariableToken.m in Sources */,
+				5920D3BE1823007500E920E7 /* EquationTokens.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5950DBB617E3CA32007404E3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5950DBB717E3CA32007404E3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		597AD07A17E33B150078AA22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597AD07B17E33B150078AA22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		597AD08917E33B150078AA22 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597AD08A17E33B150078AA22 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		597AD09217E33B150078AA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		597AD09317E33B150078AA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		597AD09517E33B150078AA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCalcApp/SimpleCalcApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SimpleCalcApp/SimpleCalcApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		597AD09617E33B150078AA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCalcApp/SimpleCalcApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SimpleCalcApp/SimpleCalcApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		597AD06917E33B150078AA22 /* Build configuration list for PBXProject "SimpleCalcApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597AD09217E33B150078AA22 /* Debug */,
+				597AD09317E33B150078AA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		597AD09417E33B150078AA22 /* Build configuration list for PBXNativeTarget "SimpleCalcApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597AD09517E33B150078AA22 /* Debug */,
+				597AD09617E33B150078AA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 597AD06617E33B150078AA22 /* Project object */;
+}
